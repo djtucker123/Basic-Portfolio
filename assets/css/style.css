@@ -7,8 +7,7 @@ body {
   color: teal;
   margin: 0px;
   line-height: 1.5;
-  border-bottom: solid;
-  border-color: black;
+
 }
 
 Header {
@@ -20,7 +19,11 @@ Header {
   font-size: 25px;
   border-bottom: solid;
   border-color: black;
+
+
   }
+
+ 
 
 .box1 {
   width: 960px;
@@ -28,8 +31,20 @@ Header {
   margin: 0 auto;
   font-size: x-large;
   padding-top: 5px;
+  color: white;
+ 
  
 }
+
+#myname {
+  background-color: teal;
+  width: 50px;
+  height: 50px !important;
+  padding: 0px;
+  
+
+}
+
 .box2 {
   width: 960px;
   background-color: white;
@@ -56,6 +71,7 @@ Header {
   overflow: hidden;
   float: center;
   color: teal;
+  border: none;
  
 }
 .coreContent {
@@ -65,4 +81,14 @@ Header {
 }
 p {
   color: black;
+}
+
+footer {
+  padding: 20px;
+ 
+  clear: both;
+  background: grey;
+  border-top: solid;
+  border-color: black;
+  text-align: center;
 }
