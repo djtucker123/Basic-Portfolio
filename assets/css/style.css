@@ -56,18 +56,20 @@ Header {
   color: black;
   padding-top: 10px;
 }
-/* box2 is central content host box fixed to 960 px*/
+/* box2 is central content host box fixed to 960 px
 .box2 {
   width: 960px;
   background-color: white;
   padding: 0px 20px 20px 20px;
   margin: 0 auto;
-}
+}*/
 
 .content {
   width: 960px;
-  margin-top: 40px;
-  padding-right: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /*margin-top: 40px;*/
+  padding: 20px;
   background-color: white;
   overflow: hidden;
   float: center;
@@ -106,7 +108,15 @@ NameBox*/
  
  
 }
+/* portfolio image setting in central content box*/
+img {
+  padding: 40px;
+  float: left;
+}
 
+div1 {
+  padding: 20px;
+}
 /* begin below from W3 samples
 NameBox*/
 
