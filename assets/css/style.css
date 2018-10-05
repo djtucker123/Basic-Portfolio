@@ -81,11 +81,13 @@ protfolio right paddign adjusted to mimic homework picture of 2X2X1 which was no
 /* core content is core image managemnt to alow float left in core box1 */
 .coreContent {
   float: left;
-  padding: 10px;
+  padding: 0px;
+  margin-right: 10px;
   
 }
 p {
   color: #777777;
+  
 }
 
 footer {
